@@ -4,8 +4,8 @@ pipeline {
        PATH = "C:\\WINDOWS\\SYSTEM32"
     }
     tools { 
-      maven 'swapna_maven'
-      jdk 'swapna_jdk' 
+      maven 'apache-maven-3.8.7'
+      jdk 'jdk-11.0.18+10' 
     }
     stages {
         stage('Clean') {
